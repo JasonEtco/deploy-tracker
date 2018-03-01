@@ -1,0 +1,29 @@
+{
+  "name": "deploy-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Jason Etcovitch <jasonetco@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/JasonEtco/deploy-tracker.git",
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "jest && standard"
+  },
+  "dependencies": {
+    "probot": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "smee-client": "^1.0.1",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": ">= 8.9.4",
+    "npm": ">= 5.0.0"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
